@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Header with Dropdowns</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Website</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyWebsite</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#profile">Profile ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#logout">Logout</a></li>
+          </ul>
+        </li>
+        <li><a href="#services">Services</a></li>
+        <li class="dropdown">
+          <a href="#contact">Contact ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#email">Email Us</a></li>
+            <li><a href="#call">Call Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">Abdullah Ahmad</h1>
+      <h2 class="hero-subtitle">Welcome To My Website</h2>
+      <a href="#services" class="hero-btn">Explore More</a>
+    </div>
+  </section>
+
+  
+
+<!-- Services Section -->
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-container">
+      
+      <div class="service-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Web Development</h3>
+        <p>We design and develop modern, responsive and user-friendly websites tailored for your business.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Digital Marketing</h3>
+        <p>Grow your online presence with our expert SEO, social media marketing and ad campaigns.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Graphic Design</h3>
+        <p>Creative logos, posters and brand identities to make your business stand out in the market.</p>
+      </div>
+
+    </div>
+  </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
